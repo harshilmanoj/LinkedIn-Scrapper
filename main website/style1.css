@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.header{
+    height: 100vh;
+    ;
+}
+.navbar-style{
+    box-shadow: 0px 5px 5px #fdfafa;
+}
+.logo
+{ height: 50px;
+    padding: 2px 10px;
+}
+ 
+  .icon-bar{
+      background:white;
+  }
+  li a{
+      color: white;
+  }
+  .image{
+      width:100%;
+  }
+.big-text
+{ 
+    font-size: 38;
+    font-style:initial;
+    color: black;
+}
+.body-panel{
+    margin-left: 20px;
+    margin-bottom:90px;
+
+    
+    background-color: gray;
+    color:white;
+  }
+  .body-panel2{
+      margin-left:750px;
+      margin-right: 20px;
+      background-color: black;
+      color: white;
+  }
+  .form {
+    background: rgba(19, 35, 47, 0.9);
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    color:white;
+  }
+  .font{
+      color:black;
+  }
+  .back{
+    position: absolute;
+    width: 1856px;
+    height: 951px;
+    filter: blur(5px);
+transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  .fordown{
+	background-image: "IMAGES\logo22";
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main{
+	position: absolute;
+	top: 17%;
+	left: 30%;
+	width: 460px;
+	border:2px solid #000;
+	padding: 40px;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	border-radius: 12px;
+	padding-top: 80px;
+}
+#file::-webkit-file-upload-button{
+	visibility: hidden;
+}
+#file , input[type=button] , #Color{
+	width: 90%;
+	height: 70px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 17px;
+	border: 1px solid #000;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.2);
+	color: #fff;
+	transition: .5s all;
+}
+#file{
+	width: 84%;
+	height: 55px;
+	padding-top: 23px;
+	padding-left: 20px;
+}
+#file:hover , input[type=button]:hover , #Color:hover{
+	cursor: pointer;
+	background-color: #4287f5;
+}
